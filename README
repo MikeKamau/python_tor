@@ -1,0 +1,18 @@
+PURPOSE OF THE SCRIPT
+======================
+This code snippet is for use in accessing internet resources with python via the tor network.
+
+REQUIREMENTS
+======================
+To use it, you must fist of install the tor and ensure that it is up and running and the pysocks python module is installed 
+e.g. for debian and ubuntu users you can use the following commands:
+
+apt-get update       #This updates your package lists from the repositories so you get the latest version of software packages
+apt-get install tor	#This installs the tor daemon/service
+service tor start		#This starts up the tor daemon
+service tor status	#This is to check that tor is up and running
+pip install pysocks	#This installs the pysocks python module
+
+CREDIT
+======================
+Credit goes to Marian (thanks Marian :-)) at http://www.sendung.de where the original code was posted (http://www.sendung.de/2014-09-16/anonymous-scraping-via-python-tor/)
