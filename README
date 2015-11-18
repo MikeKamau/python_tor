@@ -4,7 +4,7 @@ This code snippet is for use in accessing internet resources with python via the
 
 REQUIREMENTS
 ======================
-To use it, you must fist of install the tor and ensure that it is up and running and the pysocks python module is installed 
+To use it, you must first off install the tor daemon and ensure that it is up and running and the pysocks python module is installed 
 e.g. for debian and ubuntu users you can use the following commands:
 
 apt-get update       #This updates your package lists from the repositories so you get the latest version of software packages
