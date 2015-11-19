@@ -1,6 +1,6 @@
 import socks
 import socket
-import urllib
+import urllib2
 
 #The following two lines connect to the local SOCKS5 proxy that's started on port 9050 when tor
 #starts up.
